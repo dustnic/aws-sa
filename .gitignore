@@ -1,0 +1,8 @@
+.env/
+aws_sa/__pycache__
+aws_sa/aws_sa.egg-info/
+cdk.out/
+cf-1.yaml
+cf-2.yaml
+cf-3.yaml
+env*.sh
