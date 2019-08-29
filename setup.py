@@ -20,6 +20,15 @@ setuptools.setup(
 
     install_requires=[
         "aws-cdk.core",
+        "aws-cdk.aws_ec2",
+        "aws-cdk.aws_lambda",
+        "aws-cdk.aws_waf",
+        "aws-cdk.aws_apigateway",
+        "aws-cdk.aws_dynamodb",
+        "aws-cdk.aws_autoscaling",
+        "aws-cdk.aws_certificatemanager",
+        "aws-cdk.aws_elasticloadbalancingv2",
+        "aws-cdk.aws_elasticloadbalancingv2_targets"
     ],
 
     python_requires=">=3.6",
